@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colour1"
+
+    tools:context="example.anuj.com.olacab.PhoneAuthActivity">
+    <EditText
+        android:id="@+id/field_phone_number"
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:hint="mob no"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-21dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <EditText
+        android:id="@+id/field_verification_code"
+        android:layout_width="257dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:background="@drawable/backtext"
+        android:inputType="textPersonName"
+        android:hint="ENTER OTP CODE"
+        android:textColorHint="@color/colorwhite"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.63" />
+
+    <Button
+        android:id="@+id/button_start_verification"
+        android:layout_width="114dp"
+        android:layout_height="36dp"
+
+        android:background="@drawable/verifymob"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="237dp" />
+
+    <Button
+        android:id="@+id/button_verify_phone"
+        android:layout_width="121dp"
+        android:layout_height="37dp"
+
+        android:layout_marginRight="8dp"
+        android:background="@drawable/sendotp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="237dp"
+        app:layout_constraintHorizontal_bias="0.902" />
+
+    <Button
+        android:id="@+id/button_resend"
+        android:layout_width="134dp"
+        android:layout_height="37dp"
+        android:background="@drawable/resendotp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.517" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="372dp"
+        android:layout_height="47dp"
+
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="@+id/field_phone_number"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintHorizontal_bias="0.437" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="143dp"
+        android:layout_height="54dp"
+       android:textSize="30sp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        android:layout_marginTop="59dp"
+        app:layout_constraintHorizontal_bias="0.502" />
+
+
+</android.support.constraint.ConstraintLayout>

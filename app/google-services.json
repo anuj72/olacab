@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "727388630364",
+    "firebase_url": "https://olaapp-b92d2.firebaseio.com",
+    "project_id": "olaapp-b92d2",
+    "storage_bucket": "olaapp-b92d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727388630364:android:da2ef7fa585aaffd",
+        "android_client_info": {
+          "package_name": "example.anuj.com.olacab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727388630364-dn8k5q7u2406t5v9gd92n574erv78vnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.anuj.com.olacab",
+            "certificate_hash": "9317c314436bc824b3d6a768e1641d10ea519399"
+          }
+        },
+        {
+          "client_id": "727388630364-e5k5p01divv26589j757l0nelak6kith.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT0_39hMHk5b7IcaDmT0BUNhI8ijbbf-g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727388630364-e5k5p01divv26589j757l0nelak6kith.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
